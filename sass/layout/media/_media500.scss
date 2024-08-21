@@ -1,0 +1,19 @@
+/* ------------------MediaQueri  500 px o menos-----------------*/
+
+@media (max-width: 500px) {
+  .grid {
+    display: inline;
+    h1 {
+      padding: 10px;
+      font-size: 15px;
+    }
+    .parrafo1 {
+      padding: 10px;
+      font-size: 15px;
+    }
+    .parrafo2 {
+      padding: 10px;
+      font-size: 15px;
+    }
+  }
+}

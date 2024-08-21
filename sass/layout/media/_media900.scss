@@ -1,0 +1,19 @@
+/* ------------------MediaQueri  900:  al 76 (ajuste de imagen del grid)--------------------------- */
+
+@media (max-width: 900px) {
+  .grid h1 {
+    grid-column: 2 / 8;
+    grid-row: 1 / 3;
+  }
+
+  .grid img {
+    object-fit: contain; /* Mantiene la proporción de la imagen sin estirarla */
+    max-width: 90%; /* Asegura que la imagen no se estire más allá del contenedor */
+    max-height: 90%; /* Asegura que la imagen no se estire más allá del contenedor */
+  }
+
+  .grid .img1 {
+    grid-column: 1/5;
+    grid-row: 2/6;
+  }
+}

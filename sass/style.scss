@@ -1,0 +1,31 @@
+// primero importamos las utilities
+@import "./utilities/funciones";
+@import "./utilities/maps";
+@import "./utilities/mixin";
+@import "./utilities/variables";
+
+//  segundo todo lo que esta en base
+@import "./base/reset";
+@import "./base/fuentes";
+
+// tercero todo lo que sea layout
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/footer";
+@import "./layout/nosotros-section";
+@import "./layout/servicios-section";
+@import "./layout/planes-section";
+@import "./layout/contacto-section";
+
+// cuarto los componentes
+@import "./components/cards";
+
+// Quinto las mediasquery de mayor a menor dado que estamos desde desktop a mobile.
+
+@import "./layout/media/media1070";
+@import "./layout/media/media952";
+@import "./layout/media/media900";
+@import "./layout/media/media858";
+@import "./layout/media/media744";
+@import "./layout/media/media500";
+@import "./layout/media/media375";

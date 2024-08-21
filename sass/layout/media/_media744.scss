@@ -1,0 +1,17 @@
+@media (max-width: 744px) {
+  .grid {
+    h1 {
+      font-size: large;
+    }
+    .parrafo1 {
+      font-size: 13px;
+    }
+    .parrafo2 {
+      font-size: 13px;
+    }
+    .img1 {
+      grid-column: 1/5;
+      grid-row: 2/6;
+    }
+  }
+}
